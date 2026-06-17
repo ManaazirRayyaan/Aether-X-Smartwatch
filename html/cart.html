@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, follow">
+    <title>Your Shopping Bag | Secure Checkout Gate</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+    <nav class="navbar container" aria-label="Main Navigation">
+        <div class="logo"><a href="index.html">Aether<span>X</span></a></div>
+        
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-hidden="true">
+        
+        <label for="menu-toggle" class="menu-icon" aria-label="Toggle navigation menu">
+            <span class="nav-bar-line"></span>
+            <span class="nav-bar-line"></span>
+            <span class="nav-bar-line"></span>
+        </label>
+
+        <ul class="nav-links">
+            <li><a href="index.html" >Shop All</a></li>
+            <li><a href="product-watch.html">Smartwatch</a></li>
+            <li><a href="product-buds.html">Audio</a></li>
+            <li><a href="contact.html">Support</a></li>
+        </ul>
+        
+        <a href="cart.html" class="active" class="nav-cta" aria-label="Shopping Cart">
+            <svg class="cart-icon-svg"  width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+            </svg>
+            <span class="cart-count">0</span>
+        </a>
+    </nav>
+</header>
+
+    <main id="main-content" class="cart-page-section container">
+        <h1>Your Shopping <span class="gradient-text">Bag</span></h1>
+        
+        <div class="cart-layout-grid">
+            
+            <section class="cart-items-list" aria-label="Items inside bag">
+                <div class="cart-item-row">
+                    <div class="cart-item-thumb">
+                        <img src="../assets/watch.png" alt="Aether X Product Thumbnail" onerror="this.style.opacity='0.3';">
+                    </div>
+                    <div class="cart-item-meta">
+                        <h3>Aether X Smartwatch</h3>
+                        <p class="meta-spec">Titanium Case / Midnight Strap</p>
+                        <p class="meta-delivery">Dispatches within 12 hours</p>
+                    </div>
+                    <div class="cart-item-actions">
+                        <div class="quantity-picker" aria-label="Quantity selector">Quantity: 1</div>
+                        <button class="remove-btn" aria-label="Remove item from shopping bag">Delete</button>
+                    </div>
+                    <div class="cart-item-price-col">
+                        ₹7,999
+                    </div>
+                </div>
+            </section>
+
+            <section class="cart-summary-card" aria-labelledby="summary-heading">
+                <h2 id="summary-heading">Order Statement</h2>
+                
+                <div class="summary-row">
+                    <span>Subtotal</span>
+                    <span>₹7,999</span>
+                </div>
+                <div class="summary-row">
+                    <span>Priority Shipping</span>
+                    <span class="free-text">FREE</span>
+                </div>
+                <div class="summary-row">
+                    <span>Estimated Integrated Duties</span>
+                    <span>₹0.00</span>
+                </div>
+                
+                <div class="summary-total-divider"></div>
+                
+                <div class="summary-row total-row">
+                    <span>Payable Total</span>
+                    <span>₹7,999</span>
+                </div>
+
+                <button class="btn-primary full-width checkout-btn">Proceed with Instant Payment</button>
+                <p class="guarantee-text">🛡️ Protected by Secure Vault Protocol Systems</p>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <h3>Aether <span>X</span></h3>
+                <p>Architecting the future of human-machine interfaces natively.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="index.html">All Products</a></li>
+                    <li><a href="contact.html">Privacy Matrix</a></li>
+                    <li><a href="contact.html">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p class="copy">© 2026 Aether X Inc. All rights reserved. Global Distribution.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

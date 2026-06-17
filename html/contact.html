@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reach the Aether Premium Concierge Support Center. Submit requests for order statuses and device engineering services.">
+    <title>Aether Support Matrix | Premium Customer Concierge</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+    <nav class="navbar container" aria-label="Main Navigation">
+        <div class="logo"><a href="index.html">Aether<span>X</span></a></div>
+        
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-hidden="true">
+        
+        <label for="menu-toggle" class="menu-icon" aria-label="Toggle navigation menu">
+            <span class="nav-bar-line"></span>
+            <span class="nav-bar-line"></span>
+            <span class="nav-bar-line"></span>
+        </label>
+
+        <ul class="nav-links">
+            <li><a href="index.html" >Shop All</a></li>
+            <li><a href="product-watch.html">Smartwatch</a></li>
+            <li><a href="product-buds.html">Audio</a></li>
+            <li><a href="contact.html" class="active">Support</a></li>
+        </ul>
+        
+        <a href="cart.html" class="nav-cta" aria-label="Shopping Cart">
+            <svg class="cart-icon-svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+            </svg>
+            <span class="cart-count">0</span>
+        </a>
+    </nav>
+</header>
+
+    <main id="main-content" class="contact-section container">
+        <div class="contact-intro text-center">
+            <span class="tagline">Concierge Core</span>
+            <h1>Connect with <span class="gradient-text">Aether Operations</span></h1>
+            <p>Experiencing hardware sync anomalies or awaiting logistics tracking? Lodge a certified secure support request directly to our 24/7 technical operations desk.</p>
+        </div>
+
+        <div class="form-wrapper-box">
+            <form action="#" method="POST" class="production-form">
+                
+                <div class="form-group-row">
+                    <div class="form-field">
+                        <label for="client-name">Legal Name</label>
+                        <input type="text" id="client-name" name="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="client-email">Digital Communication Address</label>
+                        <input type="email" id="client-email" name="email" placeholder="john@domain.com" required>
+                    </div>
+                </div>
+
+                <div class="form-field">
+                    <label for="order-id">Reference Order Identification String (Optional)</label>
+                    <input type="text" id="order-id" name="order_ref" placeholder="AE-2026-XXXX">
+                </div>
+
+                <div class="form-field">
+                    <label for="ticket-type">Operational Query Context</label>
+                    <select id="ticket-type" name="context" required>
+                        <option value="" disabled selected>Select priority routing track...</option>
+                        <option value="logistics">Global Shipment Execution status</option>
+                        <option value="hardware">Hardware diagnostics setup</option>
+                        <option value="returns">Ecosystem trade-in / return query</option>
+                    </select>
+                </div>
+
+                <div class="form-field">
+                    <label for="client-message">Detailed Diagnostic Statement</label>
+                    <textarea id="client-message" name="message" rows="6" placeholder="Please outline the precise operational context..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-primary full-width submission-btn">Transmit Form Data Package</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <h3>Aether <span>X</span></h3>
+                <p>Architecting the future of human-machine interfaces natively.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="index.html">All Products</a></li>
+                    <li><a href="contact.html">Privacy Matrix</a></li>
+                    <li><a href="contact.html">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p class="copy">© 2026 Aether X Inc. All rights reserved. Global Distribution.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
